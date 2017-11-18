@@ -1,0 +1,82 @@
+.background {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/bf/5c/ec/bf5cec4926f9576da2043cebe8ef103b.png");
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {
+  padding: 0;
+}
+
+.lava {
+  background: #FF0000;
+}
+
+.hazard {
+
+   width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-top: 10px solid red;
+  border-left: 10px solid red;
+  border-bottom: 10px solid red;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+	
+
+.boost {
+   position: absolute;
+   width: 0; 
+   height: 0; 
+   border-left: 5px solid transparent; 
+   border-right: 5px solid transparent; 
+   border-bottom: 5px solid pink;
+
+}
+
+.wall {
+  background: #A0522D;
+}
+
+.floater {
+  background: #8A4B08;
+}
+
+.actor {
+  position: absolute;
+}
+
+.player {
+  background: rgb(64, 64, 64);
+}
+
+.coin {background: #34EC8A;
+}
+
+.diamond {
+ 	height: 50px;
+  width: 50px;
+  background-color: #7D34EC;
+  border-radius: 50%;
+}
+
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.game {
+  position: relative;
+  max-height: 450px;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+
